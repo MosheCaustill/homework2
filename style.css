@@ -1,0 +1,295 @@
+body {
+  background-color: bisque;
+}
+.menu {
+  text-align: center;
+  font-size: 25px;
+  background-color: bisque;
+  padding: 20px;
+}
+.aMenu {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  background-color: bisque;
+}
+.positionInWeb {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+}
+.headerhead {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+.headersechead {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+.midSec {
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+.midsechead {
+  font-size: 30px;
+}
+.midsecparagraph {
+  margin: auto;
+  width: 60%;
+}
+img {
+  width: 90%;
+  margin: 5%;
+  border-radius: 15%;
+}
+.productimgs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.productimg {
+  background-color: gray;
+  border-radius: 15%;
+  margin: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+footer {
+  float: right;
+  background-color: brown;
+  padding: 10px;
+  direction: rtl;
+  width: 100%;
+}
+.contactbutton {
+  position: fixed;
+  padding: 5px;
+  border-radius: 25%;
+  bottom: 50px;
+  right: 20px;
+  background-color: rgb(185, 54, 54);
+  width: 40px;
+}
+form {
+  direction: rtl;
+}
+textarea {
+  width: 50%;
+  height: 70px;
+}
+input {
+  width: 50%;
+}
+label {
+  font-size: 150%;
+}
+.logo1 {
+    width: 10%;
+    float: right;
+    right: 10%;
+    margin-right: 35%;
+}
+.logo2 {
+    width: 10%;
+    float: right;
+  }
+.logo3 {
+    width: 10%;
+    float: right;
+  }
+@media(min-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+  .menu {
+    font-size: 30px;
+  }
+  .midSec {
+    background-color: blueviolet;
+  }
+}
+@media(min-width: 800px) {
+  body {
+    background-color: rgb(189, 226, 43);
+  }
+  .menu {
+    font-size: 30px;
+  }
+  .midSec {
+    background-color: rgb(189, 226, 43);
+  }
+  .productimg {
+    float:left;
+    width:40%;
+  }
+  textarea {
+    width: 30%;
+  }
+  input {
+    width: 30%;
+  }
+  .logo1 {
+    width: 5%;
+    margin-right: 37%;
+  }
+  .logo2 {
+    width: 5%;
+    margin-right: 5%;
+  }
+  .logo3 {
+    width: 5%;
+    margin-right: 5%;
+  }
+}
+@media(min-width: 1200px) {
+  body {
+    background-color: black;
+  }
+  .menu {
+    font-size: 30px;
+  }
+  .midSec {
+    background-color: black;
+    color:white;
+  }
+  .productimg {
+    float:left;
+    width:40%;
+  }
+  textarea {
+    width: 30%;
+  }
+  input {
+    width: 30%;
+  }
+  .logo1 {
+    width: 5%;
+    margin-right: 37%;
+  }
+  .logo2 {
+    width: 5%;
+    margin-right: 5%;
+  }
+  .logo3 {
+    width: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* body {
+  background-color: bisque;
+}
+.menu {
+  text-align: center;
+  font-size: 30px;
+  background-color: bisque;
+  padding: 20px;
+}
+.aMenu {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  background-color: bisque;
+}
+.positionInWeb {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+}
+.headerhead {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+.headersechead {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+.midSec {
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+.midsechead {
+  font-size: 30px;
+}
+.midsecparagraph {
+  margin: auto;
+  width: 60%;
+}
+img {
+  width: 90%;
+  margin: 5%;
+  border-radius: 15%;
+}
+.productimgs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.productimg {
+  float: left;
+  background-color: gray;
+  border-radius: 15%;
+  width: 40%;
+  margin: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+footer {
+  float: right;
+  background-color: brown;
+  padding: 10px;
+  direction: rtl;
+  width: 100%;
+}
+.contactbutton {
+  position: fixed;
+  padding: 5px;
+  border-radius: 25%;
+  bottom: 5%;
+  left: 90%;
+  background-color: rgb(185, 54, 54);
+  width: 40px;
+}
+form {
+  direction: rtl;
+}
+textarea {
+  width: 30%;
+  height: 70px;
+}
+input {
+  width: 30%;
+}
+label {
+  font-size: 150%;
+}
+.logo1 {
+    width: 10%;
+    float: right;
+    right: 10%;
+    margin-right: 35%;
+}
+.logo2 {
+    width: 10%;
+    float: right;}
+.logo3 {
+    width: 10%;
+    float: right;} */
